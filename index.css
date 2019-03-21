@@ -203,10 +203,29 @@ body,html{
 
   } 
 
+  @media (max-width: 708px) { 
+    header { 
+      display: none; 
+    }
+  } 
+
+  @media (max-width: 708px) {
+    .content a { 
+      background-color: crimson; 
+      padding: 10px 24px; 
+      color: white; 
+      text-decoration: none; 
+      font-size: 22px; 
+      border-radius: 70px; 
+      margin-top: 50px;  
+
+    }
+  }
+
 
 
    
-  @media screen and (max-width:960px) {
+   /* @media screen and (max-width:960px) {
     .section-top{ 
       max-width: 45%;
     } 
@@ -219,9 +238,11 @@ body,html{
     .section-top{
       max-width: 50%;
     }
-  }
+  }  */
+
   
-  @media screen and (max-width:480px) {
+  
+  /* @media screen and (max-width:480px) {
     .section-top{
       max-width: 100%;
     }
@@ -263,4 +284,4 @@ body,html{
     .bottom-content{
       max-width: 100%;
     }
-  }
+  }  */
