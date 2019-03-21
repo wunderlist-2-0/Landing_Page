@@ -6,7 +6,7 @@
   }
   
   .services-section{
-    background: url(bg.jpg);
+    background-image: url("images/Image8.jpg"); 
     background-size: cover;
     padding: 60px 0;
   }
