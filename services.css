@@ -5,11 +5,13 @@
     box-sizing: border-box;
   }
   
-  .services-section{
+  body {
     background-image: url("images/Image9.jpg"); 
     background-size: cover;
     padding: 60px 0;
+    background-repeat: no-repeat;
   }
+
   .inner-width{
     width: 100%;
     max-width: 1200px;
